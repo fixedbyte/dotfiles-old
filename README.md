@@ -11,3 +11,4 @@
 - i3
 - i3-gaps
 - i3status
+- feh

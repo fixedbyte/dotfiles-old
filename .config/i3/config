@@ -185,3 +185,5 @@ for_window[class="^.*"] border pixel 0
 
 gaps inner 10
 gaps outer 0
+
+exec --no-startup-id feh --bg-fill ~/Downloads/Wallpaper.jpg

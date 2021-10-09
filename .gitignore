@@ -7,6 +7,6 @@
 !.bashrc
 !.bash_profile
 !.config
-!.vim
 !.xinitrc
-!.Xauthority
+!.gitconfig
+!.fehbg
