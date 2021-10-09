@@ -3,6 +3,7 @@
 !.gitignore
 
 # Except these files
+!README.md
 !.bashrc
 !.bash_profile
 !.config
