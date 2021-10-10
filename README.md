@@ -12,3 +12,9 @@
 - i3-gaps
 - i3status
 - feh
+- base-devels
+- yay
+- polybar
+- thunar
+- picom
+- htop

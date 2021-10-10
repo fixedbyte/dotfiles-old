@@ -4,9 +4,12 @@
 
 # Except these files
 !README.md
+!polybar-themes
 !.bashrc
 !.bash_profile
 !.config
 !.xinitrc
 !.gitconfig
 !.fehbg
+!.gtkrc-2.0
+!.local
