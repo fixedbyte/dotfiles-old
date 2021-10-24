@@ -365,3 +365,5 @@ X Protocol Version 11, Revision 0
 [  2365.608] (EE) client bug: timer event7 debounce short: scheduled expiry is in the past (-2ms), your system is too slow
 [  2491.399] (EE) event4  - VirtualBox mouse integration: client bug: event processing lagging behind by 15ms, your system is too slow
 [  2514.843] (EE) event4  - VirtualBox mouse integration: client bug: event processing lagging behind by 16ms, your system is too slow
+[  2617.794] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 29ms, your system is too slow
+[  2876.043] (EE) event4  - VirtualBox mouse integration: client bug: event processing lagging behind by 17ms, your system is too slow
