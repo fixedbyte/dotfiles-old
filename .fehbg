@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/wilmer/Downloads/Wallpaper.jpg' 
+feh --no-fehbg --bg-fill '/home/wilmer/.local/share/img/Wallpaper.png' 
