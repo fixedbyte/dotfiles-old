@@ -2,7 +2,7 @@
 /*
 !.gitignore
 
-# Except these files
+# Except these files and folders
 !README.md
 !polybar-themes
 !.bashrc
@@ -14,3 +14,8 @@
 !.gtkrc-2.0
 !.local
 !.bash_git
+!.vimrc
+!.vim
+.vim/plugged
+# !/autoload
+# !.netrwhist
