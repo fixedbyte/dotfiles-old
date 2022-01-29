@@ -44,3 +44,9 @@
 - geeqie
 - vlc
 - screenkey
+- lsd
+- OhMyBash
+- bat
+- nano-syntax-highlighting
+- ibus
+- i3blocks

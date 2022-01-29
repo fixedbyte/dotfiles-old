@@ -16,6 +16,6 @@
 !.bash_git
 !.vimrc
 !.vim
+!.themes
+!.icons
 .vim/plugged
-# !/autoload
-# !.netrwhist

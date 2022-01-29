@@ -1,0 +1,6 @@
+# Ignore everything by default
+/*
+!.gitignore
+
+# Except these files and folders
+!bin
