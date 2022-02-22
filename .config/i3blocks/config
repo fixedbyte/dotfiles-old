@@ -18,9 +18,12 @@ color=#f12711
 
 [greetings]
 color=#f5af19
+background=#ffffff
 command=echo "Hello, $USER!"
 interval=once
 
 [time]
+background=#ffff00
 command=date '+%Y-%m-%d %H:%M:%S'
 interval=1
+

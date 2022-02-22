@@ -1,0 +1,16 @@
+# Ignore everything by default
+/*
+!.gitignore
+
+# Except these files and folders
+!alacritty
+!htop
+!i3
+!i3blocks
+!ibus
+!neofetch
+!picom
+!pulse
+!qtile
+!ranger
+!rofi

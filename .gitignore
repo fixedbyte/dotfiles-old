@@ -4,18 +4,17 @@
 
 # Except these files and folders
 !README.md
-!polybar-themes
 !.bashrc
 !.bash_profile
 !.config
 !.xinitrc
 !.gitconfig
-!.fehbg
-!.gtkrc-2.0
 !.local
 !.bash_git
 !.vimrc
 !.vim
-!.themes
-!.icons
-.vim/plugged
+!.pkgs
+!.screenshots
+!.Xprofile
+!.Xresources
+!.pkgs
