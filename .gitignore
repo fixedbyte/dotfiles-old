@@ -8,12 +8,9 @@
 !.bash_profile
 !.config
 !.xinitrc
-!.gitconfig
 !.local
-!.bash_git
 !.vimrc
 !.vim
-!.pkgs
 !.screenshots
 !.Xprofile
 !.Xresources
