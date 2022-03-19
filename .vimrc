@@ -1,20 +1,20 @@
 "" ######################################################
-"" #	Basic configurations				#
+"" #	Basic configurations				            #
 "" ######################################################
 
-"" Show numbers of the lines
+"" Show numbers of the lines (Easy, the numbers at the left of the editor)
 set number
 
-"" Enable copy-paste
+"" Enable copy-paste (Copy-paste of the SO and editor)
 set mouse=a
 
-"" Let Vim use the system clipboard
+"" Let Vim use the system clipboard (Ctrl+C and Ctrl+V inside and outside of Vim)
 set clipboard=unnamedplus
 
-"" Enable syntax and highlighting
+"" Enable syntax and highlighting (The syntax of the current programming lang)
 syntax enable
 
-"" Shows the command that you are already typing
+"" Shows the command that you are already typing (Shows if you type any character in normal mode)
 set showcmd
 
 "" The ruler is where are you in the document (row and column)
@@ -39,7 +39,7 @@ set laststatus=0
 set showmode
 
 "" Sets the column at the right, It's coloured and defines the max space
-set colorcolumn=150
+set colorcolumn=80
 
 "" Set the width of the numbers at the left of the screen
 set nuw=6
@@ -47,23 +47,50 @@ set nuw=6
 "" Do not make backup files
 set nobackup
 
-"" Do not write intermediate swap files
+"" Do not write intermediate swap files (Old feature, it appears to be unnecessary)
 set noswapfile
 
-"" Change the terminal's title
+"" Change the terminal's title (The title of the screen in GUI version)
 set title
 
-"" Remember 1000 commands
+"" Remember 1000 commands (The history of the commands to be saved)
 set history=1000
 
-"" Shows search matches as you type
+"" Shows search matches as you type (Autocompletion)
 set incsearch
 
-"" Status bar of 1 row high
+"" Commands space in 1 row (location at the bottom of the editor)
 set cmdheight=1
 
+"" Active a line to know where is the cursor
+set cursorline
+
+"" Sets the color of the cursorline (The horizontal line coloured at the current row)
+set background=dark
+
+"" File encoding
+set fileencoding=utf-8
+
+"" Easy, the wrap of code
+set nowrap
+
+"" Wrap text when width id close to 100 characters (If the text is more than 100 chars, it wraps)
+set textwidth=100
+
+"" Autoindent
+set autoindent
+
+"" Cause files to be hidden instead of closed
+set hidden
+
+"" Sets the width of the tab (4 spaces)
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set showtabline=4
+
 "" ######################################################
-"" #	Install and manage plugins			#
+"" #	Install and manage plugins			            #
 "" ######################################################
 
 call plug#begin()
@@ -78,6 +105,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'valloric/youcompleteme'
+"" Install gruvbox theme
 Plug 'morhetz/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 Plug 'prettier/vim-prettier'
@@ -100,3 +128,7 @@ let g:airline_powerline_fonts = 1
 "" Gruvbox theme configurations
 let g:gruvbox_termcolors = 16
 let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_color_column = 'bg1'
+let g:gruvbox_sign_column = 'bg1'
+let g:gruvbox_vert_split = 'bg1'
+let g:gruvbox_guisp_fallback = 'bg'
