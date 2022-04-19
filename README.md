@@ -12,13 +12,13 @@ Obviously before clonning this repository you have to install git first, but in 
 
 1. Install `sudo`, `git` and `openssh`
 
-``` ssh
+``` bash
 pacman -S sudo git openssh
 ```
 
 2. Edit the `/etc/sudoers` file
 
-``` ssh
+``` bash
 vim /etc/sudoers
 ```
 
@@ -28,12 +28,19 @@ vim /etc/sudoers
 
 4. Once you do this, return to your personal user and go to `~/` directory
 
-``` ssh
+``` bash
 cd ~/
 ```
 
-5. Clone this repo, copy all files and directories and remove the dotfiles folder generated 
+5. Remove all the files of your home directory and clone this repository
 
-``` ssh
-sudo cp -r dotfiles/{.*,*} .; rm -rf dotfiles
+``` bash
+rm -rfv {*,.*}
+git clone https://github.com/quispewilmer/dotfiles.git
+```
+
+6. Install all the packages in .pkgs file
+
+``` bash
+pacman -S --needed - < .pkgs
 ```
