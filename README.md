@@ -44,3 +44,9 @@ git clone https://github.com/quispewilmer/dotfiles.git
 ``` bash
 pacman -S --needed - < .pkgs
 ```
+
+7. Install yay AUR
+
+```
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```

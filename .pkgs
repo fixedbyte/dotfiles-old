@@ -1,4 +1,3 @@
-aic94xx-firmware
 alacritty
 alsa-firmware
 alsa-utils
@@ -9,7 +8,6 @@ base
 base-devel
 bash-completion
 bat
-brave-bin
 brightnessctl
 cbatticon
 cmatrix
@@ -71,7 +69,6 @@ mypaint
 nano
 nano-syntax-highlighting
 neofetch
-neovim-nightly-bin
 networkmanager
 network-manager-applet
 nitrogen
@@ -89,16 +86,13 @@ pacman-contrib
 pamixer
 papirus-icon-theme
 paprefs
-paru-bin
 patch
 pavucontrol
 pcmanfm
 php
 php-gd
 picom
-polybar
 postgresql
-procs-bin
 pulseaudio
 python-pip
 python-xlib
@@ -110,8 +104,6 @@ rofi
 ruby
 screenkey
 scrot
-simple-mtpfs
-slack-desktop
 spectrwm
 sudo
 texlive-most
@@ -129,7 +121,6 @@ udiskie
 udisks2
 unrar
 unzip
-upd72020x-fw
 upower
 vifm
 virtualbox
@@ -146,13 +137,11 @@ xdotool
 xmobar
 xmonad
 xmonad-contrib
-xob
 xorg
 xorg-xinit
 xsel
 xsettingsd
 xterm
-yay
 zip
 zsh
 zsh-autosuggestions
