@@ -112,6 +112,9 @@ Plug 'prettier/vim-prettier'
 "" Docker
 Plug 'skanehira/docker.vim'
 
+"" Display tabs at the top
+Plug 'pacha/vem-tabline'
+
 call plug#end()
 
 "" Set theme to use
@@ -132,3 +135,7 @@ let g:gruvbox_color_column = 'bg1'
 let g:gruvbox_sign_column = 'bg1'
 let g:gruvbox_vert_split = 'bg1'
 let g:gruvbox_guisp_fallback = 'bg'
+
+"" Tabline at the top
+let g:vem_tabline_show = 2
+let g:vem_tagline_multiwindow_mode = 1
