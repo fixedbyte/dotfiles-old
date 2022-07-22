@@ -1,17 +1,18 @@
-# Ignore everything by default
-/*
+# Ignore everything
+/**
+
+# Except
 !.gitignore
 
-# Except these files and folders
-!README.md
+!*.md
 !.bashrc
 !.bash_profile
 !.config
 !.xinitrc
 !.vimrc
 !.vim
-!.screenshots
 !.Xprofile
 !.Xresources
 !.pkgs
 !.zshrc
+!.local

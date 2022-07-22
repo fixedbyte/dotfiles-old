@@ -1,8 +1,9 @@
-# Ignore everything by default
-/*
+# Ignore everything
+/**
+
+# Except
 !.gitignore
 
-# Except these files and folders
 !alacritty
 !htop
 !i3

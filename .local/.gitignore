@@ -1,6 +1,8 @@
-# Ignore everything by default
-/*
+# Ignore everything
+/**
+
+# Except
 !.gitignore
 
-# Except these files and folders
 !bin
+!lib

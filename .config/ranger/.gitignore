@@ -1,0 +1,9 @@
+# Ignore everything
+/**
+
+# Except
+!.gitignore
+
+!plugins/__init__.py
+!plugins/ranger_devicons
+!rc.conf
