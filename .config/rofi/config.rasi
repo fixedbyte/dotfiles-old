@@ -1,0 +1,13 @@
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+configuration {
+    modi: "window,drun,ssh,combi";
+    combi-modi: "window,drun,ssh";
+    combi-display-format: " {text}";
+    icon-theme: "Papirus";
+    show-icons: true;
+    
+    combi {
+        display-name: "";
+    }
+}

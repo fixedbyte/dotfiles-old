@@ -4,4 +4,4 @@
 # Except
 !.gitignore
 
-!bin
+!config.py

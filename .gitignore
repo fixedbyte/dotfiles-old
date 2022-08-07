@@ -1,5 +1,8 @@
 # Ignore everything
-/**
+/*
+
+# Ignore backups
+/**/*.bak
 
 # Except
 !.gitignore
@@ -16,3 +19,4 @@
 !.pkgs
 !.zshrc
 !.local
+!.gtkrc-2.0.mine
