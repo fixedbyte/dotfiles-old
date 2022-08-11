@@ -166,6 +166,7 @@ trayer
 tree
 ttf-dejavu
 ttf-liberation
+twmn-git
 udiskie
 udisks2
 unrar
@@ -188,6 +189,9 @@ xcursor-simp1e-gruvbox-dark
 xcursor-themes
 xdotool
 xf86-video-vesa
+xfce4-clipman-plugin
+xfce4-dev-tools
+xfce4-panel
 xorg-bdftopcf
 xorg-docs
 xorg-font-util

@@ -35,12 +35,12 @@ colors:
     white: '0xfbf1c7'
 
   indexed_colors:
-    - {index: 16, color: '0xbdb6c5'}
-    - {index: 17, color: '0xdedae2'}
-    - {index: 18, color: '0x392551'}
-    - {index: 19, color: '0x7b6d8b'}
-    - {index: 20, color: '0xddd6e5'}
-    - {index: 21, color: '0x470546'}
+    - {index: 16, color: '0xfe8019'}
+    - {index: 17, color: '0xd65d0e'}
+    - {index: 18, color: '0x3c3836'}
+    - {index: 19, color: '0x504945'}
+    - {index: 20, color: '0xbdae93'}
+    - {index: 21, color: '0xebdbb2'}
 font:
   bold:
     family: UbuntuMono Nerd Font

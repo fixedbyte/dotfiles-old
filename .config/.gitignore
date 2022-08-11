@@ -17,7 +17,6 @@
 !Thunar
 !starship.toml
 !screenkey.json
-!dconf
-!flameshot
-!pavucontrol.ini
 !pulse
+!nvim
+!gtk-3.0
