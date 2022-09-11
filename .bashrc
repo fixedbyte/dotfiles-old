@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 LIGHT_COLOR='base16-gruvbox-light-pale.yml'
 DARK_COLOR='base16-gruvbox-dark-pale.yml'
+JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
 
 neofetch --ascii_distro macos
 
