@@ -21,3 +21,20 @@ alias night="alacritty-colorscheme -V apply $DARK_COLOR"
 alias toggle="alacritty-colorscheme -V toggle $LIGHT_COLOR $DARK_COLOR"
 
 eval "$(starship init bash)"
+
+###CPCTELERA_START
+##
+## These lines configure CPCtelera in your system
+##
+
+export CPCT_PATH=/home/wilmer/cpctelera/cpctelera
+export PATH=${PATH}:/home/wilmer/cpctelera/cpctelera/tools/scripts
+
+###CPCTELERA_END 
+
+###XAMP_START
+##
+## These lines configure XAMPP in your system
+##
+
+export PATH=${PATH}:/opt/lampp/bin
