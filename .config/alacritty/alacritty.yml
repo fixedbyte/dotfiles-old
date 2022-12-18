@@ -81,8 +81,8 @@ font:
 window:
   opacity: 1
   padding:
-    x: 18
-    y: 20
+    x: 0
+    y: 0
   dynamic_padding: true
   decorations: full
   startup_mode: Maximized
