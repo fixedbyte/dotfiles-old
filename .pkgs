@@ -249,6 +249,7 @@ hdparm
 heroku-cli
 hicolor-icon-theme
 hidapi
+highlight
 highway
 htop
 http-parser
@@ -656,6 +657,7 @@ libvorbis
 libvpx
 libvterm
 libwacom
+libwbclient
 libwebp
 libwmf
 libwnck3
@@ -798,6 +800,7 @@ nspr
 nss
 ntfs-3g
 numactl
+numlockx
 obconf
 obs-studio
 ocl-icd
@@ -834,6 +837,7 @@ pciutils
 pcmanfm
 pcre
 pcre2
+pcsclite
 perl
 perl-clone
 perl-encode-locale
