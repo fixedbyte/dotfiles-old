@@ -11,11 +11,11 @@
 !.bashrc
 !.bash_profile
 !.config
-!.xinitrc
 !.vimrc
 !.vim
-!.Xprofile
-!.Xresources
+!.xinitrc
+!.xprofile
+!.xresources
 !.pkgs
 !.zshrc
 !.local
