@@ -41,10 +41,12 @@ bash-completion
 bat
 batify
 batsignal
+beep
 binutils
 bison
 blas
 bluez-libs
+bochs
 boost
 boost-libs
 box2d
@@ -257,10 +259,11 @@ hunspell
 hwdata
 hwloc
 hyphen
-i3-gaps
+i3-wm
 i3blocks
 i3lock
 i3status
+i8086emu-git
 iana-etc
 ibus
 icu
