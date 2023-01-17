@@ -1,9 +1,0 @@
-numlockx &
-exec i3 &
-exec cbatticon &
-exec feh --bg-fill ~/wallpapers/1.png &
-exec picom -b --config ~/.config/picom/picom.conf &
-exec setxkbmap -model pc105 -layout latam &
-exec xfce4-clipman &
-exec dunst &
-exec udiskie
