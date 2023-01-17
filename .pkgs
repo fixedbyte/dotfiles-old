@@ -10,11 +10,11 @@ agg
 alacritty
 alsa-firmware
 alsa-lib
+alsa-plugins
 alsa-tools
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
-android-studio
 antlr4-runtime
 aom
 apache
@@ -77,6 +77,7 @@ cmake
 cmatrix
 code
 cogl
+colord
 compiler-rt
 composer
 confuse
@@ -100,7 +101,6 @@ desktop-file-utils
 device-mapper
 dhcpcd
 diffutils
-discord
 djvulibre
 dkms
 dmenu
@@ -179,6 +179,8 @@ gdk-pixbuf2
 geeqie
 gegl
 geoclue
+geocode-glib-2
+geocode-glib-common
 geoip
 geoip-database
 gettext
@@ -198,7 +200,10 @@ glslang
 glu
 gmp
 gnome-backgrounds
+gnome-desktop
+gnome-desktop-common
 gnome-keyring
+gnome-settings-daemon
 gnome-sound-recorder
 gnome-system-monitor
 gnu-netcat
@@ -212,6 +217,7 @@ gpgme
 gpm
 gptfdisk
 gradle
+granite
 graphene
 graphite
 graphviz
@@ -274,7 +280,6 @@ imlib2
 imv
 inetutils
 iniparser
-insync
 intellij-idea-community-edition
 intltool
 iproute2
@@ -521,6 +526,7 @@ libfontenc
 libfreehand
 libgcrypt
 libgdiplus
+libgee
 libgexiv2
 libgit2
 libglvnd
@@ -528,6 +534,8 @@ libgpg-error
 libgphoto2
 libgtop
 libgudev
+libgusb
+libgweather-4
 libhandy
 libheif
 libibus
@@ -712,6 +720,7 @@ libzmf
 licenses
 lightdm
 lightdm-gtk-greeter
+lightdm-webkit-theme-aether
 lightdm-webkit2-greeter
 linux
 linux-api-headers
@@ -767,6 +776,7 @@ mpg123
 msgpack-c
 mtdev
 mtpfs
+mutter
 mypaint
 mypaint-brushes
 mypaint-brushes1
@@ -887,6 +897,7 @@ procps-ng
 proj
 psmisc
 pulseaudio
+pulseaudio-alsa
 pulseaudio-jack
 pwgen
 python
@@ -1112,7 +1123,6 @@ speex
 speexdsp
 spirv-tools
 spring-boot-cli
-spring-tool-suite
 sqlite
 sqlmap
 srt
@@ -1215,7 +1225,6 @@ wayland-protocols
 webkit2gtk
 webp-pixbuf-loader
 webrtc-audio-processing
-webstorm
 wget
 which
 wimlib
@@ -1327,4 +1336,5 @@ zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
 zstd
+zxing-cpp
 zziplib
